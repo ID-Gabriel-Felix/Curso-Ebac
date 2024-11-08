@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>                                                                  <!-- Tag para Formularios                                             -->
+        <input type="text" placeholder="Seu Nome"/>                         <!-- Tag input serve para criar caixa do Formularios                  -->
+        <br/>                                                               <!-- Atributo: placeholder = coloca o conteudo que deve ser digitado  -->
+        <br/>  
+        
+        <label for="email">Seu Email</label>                                <!-- Informa o campo/etiqueta na frente                               -->
+        <input id="email" type="email">                                     <!-- os atributos for e id fazem com que o clique me direcione        -->
+        <br/>
+        <br/>  
+
+        <input type="tel" placeholder="Seu Telefone" />
+        <br/>
+        <br/> 
+
+        <input type="number" max="10" min="2" step="2" />                   <!-- os atributos "number" coloca caixa com interação numeral         -->
+        <br/>
+        <br/>
+
+        <input type="file" />                                               <!-- file = adcionar arquivos                                         -->
+        <br/>
+        <br/> 
+
+        <input type="color">                                                <!-- color = selecinador de cores                                     -->
+        <br/>
+        <br/> 
+
+        <input type="checkbox" id="checkbox-termos" /> <label for="checkbox-termos"> Aceito os Termos</label>
+        <br/>
+        <br/> 
+        <p>
+            Qual seu Esporte Favorito?
+        </p>
+        <input type="radio" name="esporte-favorito" id="Futebol">    <label for="Futebol">Futebol</label>     <!-- opção "name" permite que marque apenas 1 -->
+        <input type="radio" name="esporte-favorito" id="Basquete">   <label for="Basquete">Basquete</label>
+        <input type="radio" name="esporte-favorito" id="Volei">      <label for="Volei">Volei </label>  
+        <br/> 
+        <br/> 
+
+        <label> Qual seu Filme Favorito?</label>   
+        <br/> 
+        <br/> 
+        <select multiple>                                                   <!-- atributo multiple - permite selecionar + de 1                   -->
+            <option>Filme A</option>
+            <option>Filme B</option>
+            <option>Filme C</option>
+        </select>
+        <br/> 
+        <br/> 
+        <textarea></textarea>                                                <!-- Cria uma Area de Texto                                          --> 
+        <br/> 
+        <br/> 
+        <button type="submit">                                               <!-- Cria Botões                                                     -->           
+            Enviar
+        </button>
+        <Button type="reset">
+            Limpar
+        </Button>
+        
+    </form>
+</body>
+</html>
