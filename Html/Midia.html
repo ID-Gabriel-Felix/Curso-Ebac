@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midia</title>
-</head>
-<body>
-    <img src="./Media/Imagem.jpg" alt="Abelha Amarela na Flor" />
-    <img src="https://videos-rockstargames-com.akamaized.net/v4/rkoCtr1r/art/global.jpg" alt="GTA 6">
-    <audio autoplay src="./Media/Musica.mp3"></audio>
-    <video controls src="./Media/Video.mp4"></video>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Midia</title>
+    </head>
+    <body>
+        <img autoplay src="./Media/Imagem.jpg" alt="Abelha Amarela na Flor" width="500" />
+        <img src="https://videos-rockstargames-com.akamaized.net/v4/rkoCtr1r/art/global.jpg" alt="GTA 6" width="500">
+        <audio controls src="./Media/Musica.mp3"></audio>                                                          <!-- MP3 - WAV - OGG -->
+    
+        <audio preload="metadata" controls loop>
+        <source src="Media/audio 1.mp3" type="audio/mpeg">
+        </audio>
+    
+        <video controls poster="Media/Imagem.jpg" src="./Media/Video.mp4" width="500"> </video>                    <!-- MP4 - WEBM  - OGV -->
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=i3Mb2CM1mIpcluKK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=saIVAwIBKXlUrp8H&amp;start=650" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </body>
 </html>

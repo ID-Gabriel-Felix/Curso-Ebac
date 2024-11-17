@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Aprendendo Tag h1</h1>                                              <!--Aprendendo a colocar Tag que vão até o h6 -->
+    <h1>Aprendendo Tag h1</h1>                                              <!-- Aprendendo a colocar Tag que vão até o h6 -->
     <h2>Aprendendo Tag h2</h2>
     <h3>Aprendendo Tag h3</h3>                                                  
     <h4>Aprendendo Tag h4</h4>
@@ -16,7 +16,8 @@
     <h6>Aprendendo Tag h6</h6>                                              <!-- CTRL + D = Encontrar a mesma palavra  -->
 
     <hr/>                                                                   <!-- <hr/> Coloca uma Linha na tela        -->
-
+    
+    <h2>Formatações Iniciais</h2>
     <p>                                                                     <!-- <p> Coloca um paragrafo               --> 
 
         <br/>                                                               <!-- <br> Muda a linha                     -->
@@ -32,7 +33,13 @@
         <br/>         
         <em>Exemplo de Marcação</em>                                        <!-- <em> Coloca em Italico + Destaque     -->
         <br/> 
-        <br/>                                               
+        <br/>   
+        <u>Exemplo de Marcação</u>                                           <!-- <i> Coloca Sublinhado                -->
+        <br>
+        <br>    
+        <ins>Exemplo de Marcação</ins>                                      <!-- <ins> Coloca Sublinhado + Destaque    -->
+        <br>
+        <br>
         <mark>Exemplo de Marcação</mark>                                    <!-- <mark> Coloca Marcado/Pintado         -->
         <br/> 
         <br/> 
@@ -42,34 +49,76 @@
         <small>Exemplo de Marcação</small>                                  <!-- <small> Coloca Pequeno                -->
         <br/> 
         <br/>
-        <span>Exemplo de Marcação</span>   
-    
+        <span>Exemplo de Marcação</span> 
+        
     </p>
 
-    <hr/>                                                                   <!-- <hr/> Coloca uma Linha na tela        -->
-
+    <h2>Outras Formatações</h2>
+        <p>Exemplo de Marcação: H<sup>2</sup>O</p>                         <!-- <sup> Coloca Sobrescrito               -->
+        <br/> 
+        <p>Exemplo de Marcação: H<sub>2</sub>O</p>                         <!-- <sub> Coloca Subscrito                 -->
+        <br>
+        <p>Exemplo de Marcação: <code>Codigo.bit</code></p>                <!-- <code> Coloca como codigo - Mono espaçada -->
+        <br>
+        <p>Exemplo de Marcação:</p>                                     
+            <pre>                                                          <!-- <pre> Pré Formatação                   -->
+            <code>
+            Codigo.net2
+            Codigo.ico3
+            </code>
+            </pre>
+        <br>
+        <q>Exemplo de Marcação</q>                                         <!-- <q> Coloca como Citação                -->     
+        <br>
+        <p>Exemplo de Marcação: Abreviação <abbr title="Assinatura">ASS</abbr></p>    <!-- <abbr> Define a Abreviação  -->
+        <br>
+        
+    <hr/>                                                                  <!-- <hr/> Coloca uma Linha na tela         -->
+    
     <a href="https://www.google.com"title="Ir para o site google">Ir para o Google</a>
     <br/>
     <a href="tel:4432323232">Telefone: (44) 3232-3232</a>
     <br/>
     <a href="mailto:"gabriel@email.com.br>Entre em contato por E-mail</a>
-
+    
     <!-- href = coloca informações de contatos/links outros mais -->
+    
+    <hr/> 
+    
+    <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=24"> <!-- cite = mostra a origem da citação de onde veio a informação   -->
+    Curso Ebac para iniciantes                                             
+    </blockquote>                                                                                                    <!-- blockquote = Cria um espaço tipo Paragrafo - Citação de Bloco -->
 
     <hr/> 
 
-    <blockquote>                                                            <!-- blockquote = Cria um espaço tipo Paragrafo -->
-        Curso Ebac                                                
-    </blockquote>
-
-    <hr/> 
-
-    <address>Rua Ipiranga, 333 Marialva Paraná</address>                    <!-- Coloca Informações de Rodapé - Endereço    -->       
+    <address>Rua Ipiranga, 333 Marialva Paraná</address>               <!-- Coloca Informações de Rodapé - Endereço    -->       
 
     <hr/>
-    <a href="./containers.html">Ir Para Pagina Contaniners</a>              <!-- ./ chama um link localmente                -->
+
+    <a href="./containers.html">Ir Para Pagina Contaniners</a>         <!-- ./ chama um link localmente                -->
     <a href="./listas.html">Ir Para Pagina Listas</a>
     <a href="./Tabela.html">Ir Para Pagina Tabela</a>
+
+    
+    
+
+    <hr>  <!-- Curso do Guanabara -->
+
+    <h2>Link Dowload</h2>
+    <ul>
+        <li><a href="Slides Modulo 3 - Html/Mod 3 - 1 - Conhecendo HTML.zip" download="livro" type="application/zip">Baixar arquivo</a></li>
+    </ul>
+    
+    <a href="./Tabela.html" target="_blank" rel="author">Ir Para Pagina Tabela</a>  <!-- target serve para criar nova aba, rel = referencia a natureza-->
+    
+    <h2>Imagens Dinamica</h2>
+    <p>Tente Abrir em Sites Diferentes</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="Imagens/fotos-p.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="Imagens/fotos-m.png" type="image/png">
+            <img src="Imagens/fotos-g.png" alt="imagem flexivel" >
+        </picture>
+        
 </body>
-</html>                                                                     <!-- Salvar = CTRL +S                           -->
+</html>                                                                 <!-- Salvar = CTRL +S                               -->
 
