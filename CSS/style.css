@@ -1,7 +1,31 @@
-body{
-    background-color: black;
-    color: white;
+h1 {
+    color: green;
 }
+
+h2 {
+    color: green;
+}
+
+#economia h2 {
+    color: gold;
+}                                         /* # Colocar estilo por ID */ 
+
+.data {
+    color: #ccc;
+}                                          /* . Colocar estilo por class */ 
+
+* {
+    color: red;                         /* * Colocar estilo por tudo  */ 
+}
+
+h1:hover {
+    color: violet;                      /* ouver Colocar estilo quando passa por cima  */
+}
+
+li:last-child{
+    color: aliceblue;
+}
+
 .botaoenviar{
     background-color: green;
     color: white;
