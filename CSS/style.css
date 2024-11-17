@@ -1,3 +1,8 @@
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
 h1 {
     color: green;
 }
@@ -15,7 +20,7 @@ h2 {
 }                                          /* . Colocar estilo por class */ 
 
 * {
-    color: red;                         /* * Colocar estilo por tudo  */ 
+    color: black;                         /* * Colocar estilo por tudo  */ 
 }
 
 h1:hover {
